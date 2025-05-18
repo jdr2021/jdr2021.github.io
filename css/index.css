@@ -1808,8 +1808,3 @@ a.fancybox:focus {
   display: inline-block;
   min-width: 0.9rem;
 }
-#sidebar .sidebar-toc__progress-bar {
-  width: 0;
-  height: 1px;
-  background: #00c4b6;
-}
