@@ -4,7 +4,6 @@ function decryptAES() {
         var content = CryptoJS.AES.decrypt(document.getElementById("encrypt-blog").innerHTML.trim(), pass);
         content = content.toString(CryptoJS.enc.Utf8);
         content = decodeBase64(content);
-        console.log(content);
         content = unescape(content);
         if (content == '') {
             alert("密码错误！！");
